@@ -109,6 +109,6 @@
 (load "/usr/local/ccl/trunk/source/cocoa-ide/builder-utilities.lisp")
 (load "/usr/local/ccl/trunk/source/cocoa-ide/build-application.lisp")
 (ccl::build-application :name "Foo"
-                        :directory "/Users/mikel/Desktop"
+                        :directory (merge-pathnames #P"Desktop/" (user-homedir-pathname))
                         :copy-ide-resources t)
 |#
