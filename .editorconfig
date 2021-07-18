@@ -1,0 +1,21 @@
+[*.lisp]
+indent_style = tab
+indent_size = 8
+[*.asd]
+indent_style = tab
+indent_size = 8
+[*.el]
+indent_style = tab
+indent_size = 8
+[*.py]
+indent_style = tab
+indent_size = 8
+[*.h]
+indent_style = tab
+indent_size = 8
+[*.c]
+indent_style = tab
+indent_size = 8
+[*.s]
+indent_style = tab
+indent_size = 8
